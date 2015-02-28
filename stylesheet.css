@@ -1,0 +1,222 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #67615a;
+  background-image: url("img/background.jpg");
+  background-color: #dce7e0; }
+  
+a:link#email {
+  color: BLUE;
+  text-decoration: underline; }  
+  
+a:link#APK {
+  color: #3299c9; 
+  text-decoration: none;
+  font-weight: bold; }
+  
+a:visited#APK {
+  color: #3299c9; 
+  text-decoration: none;
+  font-weight: bold; }
+  
+a:link.entrylinks {
+  color: #3299c9;
+  text-decoration: none; 
+  vertical-align: 50%;}  
+
+a:visited.entrylinks {
+  color: #3299c9;
+  text-decoration: none; 
+  vertical-align: 50%; }   
+
+a:link {
+  color: #ffffff; 
+  text-decoration: none; }
+
+a:visited {
+  color: #ffffff;
+  text-decoration: none; }  
+  
+a:hover {
+  color: #ffffff; 
+  text-decoration: none; }
+
+a:active {
+  color: PINK;
+  text-decoration: none; }
+
+div.banner {
+  background-color: #ffffff;
+  margin-top: 2px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; }
+  
+div.button {
+  color: #ffffff;
+  background-color: #2c2723;
+  opacity: 0.9;
+
+  text-align: center;
+  
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  
+div.downloadLink {
+  background-color: #ffffff;
+  border-width: 0px;
+  border-style: none;
+  
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-left: 10px; }  
+  
+div.entry {
+  background-color: #ffffff;
+  opacity: 0.9;
+  
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  padding: 2px 15px 2px 15px; }     
+  
+div.titleheader {
+  color: #ffffff;
+  background-color: #2c2723;
+  opacity: 0.8;
+  
+  font-size: 30px;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-indent: 5px; }  
+  
+div.portfolio {
+  color: #ffffff;
+  background-color: #6c6662;
+  
+  border-width: 1px;
+  border-color: #aebeb3;
+  border-style: dashed;
+  
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px; }
+  
+div.workheader {
+  color: #ffffff;
+  background: #6c6662; 
+  opacity: 0.9;
+  
+  font-size: 25px;
+  
+  margin-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-indent: 15px; }
+
+img.banner {
+  margin-left: 20px;
+  margin-top: 5px; }  
+
+p.description {
+
+  padding-left: 25px;
+  padding-right: 25px; }
+
+table.skills {
+  background-color: transparent; }  
+  
+div#about {
+  margin-bottom: 10px;}
+ 
+div#content {
+  position: relative;
+  top: 0px;
+  left: 192px;
+  
+  width: 593px;
+  
+  z-index: 1;
+   padding-bottom: 100px;}
+
+div#footnote {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  opacity: 1.0;
+  
+  color: #ffffff;
+  font-family: monospace;
+  background-color: #2c2723;
+  
+  font-size: 15px;
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+  border-style: outset;
+  border-color: #2c2723;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px; 
+  
+  z-index: 10; }
+
+div#navigation {
+  position: fixed;
+  top: 0px;
+  bottom: 23px;
+  left: 0px;
+
+  width: 200px;
+  height: 100%;
+  background-color: #3e3833;
+  opacity: 0.7;
+  /*
+  border-style: solid;
+  border-color: #ffffff;*/
+  /*border-color: #b3afac;*/
+  /*
+  border-top-width: 0px;
+  border-right-width: 3px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;*/
+  z-index: 2; }
+  
+div#work {
+  margin-bottom:10px;}  
+  
+img#linkedin {
+  padding-top: 5px;
+  padding-right: 20px; }
+  
+img#linkedinContact{
+  padding-left: 20px;}
+  
+img#logo {
+  padding-top: 100px;
+  padding-left: 20px;}  
+  
+span#applications u:after {
+  content: "...................................................................................................."; 
+  color: transparent; }
+
+span#languages u:after {
+  content: "......................................................................................................."; 
+  color: transparent; }
+
+span#operatingsystems u:after {
+  content: "........................................................................................."; 
+  color: transparent; }
+
+ul#menu {
+  list-style-type: none; }
