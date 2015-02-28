@@ -207,7 +207,11 @@ img#logo {
   padding-left: 20px;}  
   
 span#applications u:after {
-  content: "...................................................................................................."; 
+  content: "....................................................................................................."; 
+  color: transparent; }
+
+span#databasesystems u:after {
+  content: ".........................................................................................."; 
   color: transparent; }
 
 span#languages u:after {
@@ -216,6 +220,10 @@ span#languages u:after {
 
 span#operatingsystems u:after {
   content: "........................................................................................."; 
+  color: transparent; }
+  
+span#webdevelopment u:after {
+  content: ".........................................................................................."; 
   color: transparent; }
 
 ul#menu {
