@@ -1,8 +1,8 @@
 body {
   font-family: Arial, Verdana, sans-serif;
   color: #67615a;
-  background-image: url("img/background.JPG");
-  background-color: #dce7e0; }
+ /* background-image: url("img/background.JPG");*/
+  background-color: #d29cb4; }
   
 a:link#email {
   color: BLUE;
