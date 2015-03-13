@@ -6,6 +6,21 @@
   </head>
   
   <body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+ $('.button').click(
+  function () {
+   $('#work_box').show();
+  }  
+ );
+});
+
+</script>
+
+  
     <div id="navigation">
       
           <div class="button">
@@ -17,11 +32,19 @@
       
           <div class="button">
             <a href="#work">
-              <img src="img/icon_work.png" alt="Tracy's Work & Experience" />
+              <img id="img_work" src="img/icon_work.png" alt="Tracy's Work & Experience" />
               <br>Work
             </a>
           </div>
-      
+         
+         <div id="work_box">
+          <ul> 
+            <li><a href="#videoguestbook">Video Guestbook</a></li>
+            <li><a href="#rusocial">RUSocial</a></li>
+          </ul>
+         </div>
+         
+         
           <div class="button">
             <a href="#contact">
               <img src="img/icon_contact.png" alt="Contact Tracy" />
@@ -30,7 +53,7 @@
           </div>
           
           <img id="logo" src="img/logo.png" alt="Portfolio for Tracy Perez" />
-      
+          
     </div>
     
     <div id="content">
@@ -92,7 +115,7 @@
           My Work
         </div>
         <div class="workheader">
-          Video Guestbook - Java Application
+          <span id="videoguestbook">Video Guestbook - Java Application</span>
         </div>
         <img class="banner" src="img/banner_VideoGuestbook.png" alt=Video Guestbook" />
         <div class="entry">        
@@ -113,7 +136,7 @@
         </div>
         
         <div class="workheader">
-          RUSocial - Android Application  
+          <span id="rusocial">RUSocial - Android Application</span>
         </div>
         <img class="banner" src="img/banner_RUSocial.png" alt="RUSocial" />
         <div class="entry">
@@ -181,5 +204,13 @@
       </a>
       
     </div>
+    
+    <div id="hidden_box">
+    <ul id="work_menu">
+            <li><a href="#videoguestbook" class="work1">Video Guestbook</a></li>
+            <li><a href="#rusocial" class="work2">RUSocial</a></li>
+          </ul>
+          </div>
+    
   </body>
 </html>

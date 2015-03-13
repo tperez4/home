@@ -173,6 +173,13 @@ div#footnote {
   border-left-width: 0px; 
   
   z-index: 10; }
+  
+div#hidden_box {
+  position: fixed;
+  top: 110px;
+  left: 200px;
+  
+}  
 
 div#navigation {
   position: fixed;
@@ -195,6 +202,11 @@ div#navigation {
   border-left-width: 0px;*/
   z-index: 2; }
   
+div#work_box {
+  display: none;
+  color: #ffffff;
+  padding-left: 10px; } 
+ 
 div#work {
   margin-bottom:10px;}  
   
@@ -231,3 +243,23 @@ span#webdevelopment u:after {
 
 ul#menu {
   list-style-type: none; }
+  
+ul#work_menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+  
+ul#work_menu li a {
+  width: 150px;
+  color: BLUE;
+  text-align: center;
+  padding: 30px, 0;
+  text-decoration: none;
+  
+  display: none; } 
+
+ul#work_menu li a.work1 {
+  background: RED; }     
+  
+ul#work_menu li a.work2 {
+  background: YELLOW; } 
