@@ -8,12 +8,12 @@ a:link#email {
   color: BLUE;
   text-decoration: underline; }  
   
-a:link#APK {
+a:link.APK {
   color: #3299c9; 
   text-decoration: none;
   font-weight: bold; }
   
-a:visited#APK {
+a:visited.APK {
   color: #3299c9; 
   text-decoration: none;
   font-weight: bold; }
