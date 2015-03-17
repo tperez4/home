@@ -126,7 +126,10 @@ div.workheader {
 
 img.banner {
   margin-left: 20px;
-  margin-top: 5px; }  
+  margin-top: 5px; }
+  
+img.contactButton{
+  padding-left: 20px;}  
 
 p.description {
 
@@ -213,9 +216,6 @@ div#work {
 img#linkedin {
   padding-top: 5px;
   padding-right: 20px; }
-  
-img#linkedinContact{
-  padding-left: 20px;}
   
 img#logo {
   padding-top: 100px;
